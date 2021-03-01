@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Monopoly Game</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(230, 230, 230);</string>
+   <string notr="true"/>
   </property>
   <widget class="QGraphicsView" name="board">
    <property name="geometry">
@@ -96,36 +96,6 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QGraphicsView" name="walk1">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>730</y>
-     <width>40</width>
-     <height>40</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(245, 181, 102);</string>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="walk2">
-   <property name="geometry">
-    <rect>
-     <x>730</x>
-     <y>680</y>
-     <width>40</width>
-     <height>40</height>
-    </rect>
-   </property>
-   <property name="accessibleDescription">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/dice1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">
-background-color: rgb(255, 226, 120);</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="random">
    <property name="geometry">
     <rect>
@@ -175,11 +145,53 @@ background-color: rgb(255, 226, 120);</string>
    <property name="styleSheet">
     <string notr="true"/>
    </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
    <property name="text">
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="walk2">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>730</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resource.qrc">:/dice2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="walk1">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>680</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
  <connections/>
 </ui>

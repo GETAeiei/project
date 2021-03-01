@@ -19,6 +19,7 @@ main3::~main3()
     delete ui;
 }
 
+
 int a1=730;
 int b1=680;
 int a2=730;

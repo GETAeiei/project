@@ -83,7 +83,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=2;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myanmar = new Myanmar(this);
                     myanmar->show();
                     //spaceSet.property(locate);
@@ -96,7 +96,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=3;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     vietnam = new Vietnam(this);
                     vietnam->show();
                     //spaceSet.property(locate);
@@ -107,7 +107,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=680;
                     ui->walk1->move(a1,b1);   //space=4 chance
                     locate=4;
-                    
+
                     chance = new Chance(this);
                     chance->show();
                     //spaceSet.property(locate);
@@ -120,7 +120,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=5;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     taiwan = new Taiwan(this);
                     taiwan->show();
                     //spaceSet.property(locate);
@@ -143,7 +143,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=7;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     bhutan = new Bhutan(this);
                     bhutan->show();
                     //spaceSet.property(locate);
@@ -154,7 +154,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=478;
                     ui->walk1->move(a1,b1);   //space=8 tax
                     locate=8;
-                    
+
                     tax = new Tax(this);
                     tax->show();
                     //spaceSet.property(locate);
@@ -165,7 +165,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=378;
                     ui->walk1->move(a1,b1);   //space=9 chance
                     locate=9;
-                    
+
                     chance = new Chance(this);
                     chance->show();
                     //spaceSet.property(locate);
@@ -178,7 +178,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=10;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     japan = new Japan(this);
                     japan->show();
                     //spaceSet.property(locate);
@@ -191,7 +191,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=11;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     korea = new Korea(this);
                     korea->show();
                     //spaceSet.property(locate);
@@ -202,7 +202,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=55;
                     ui->walk1->move(a1,b1);   //space=12 bonus
                     locate=12;
-                    
+
                     bonus = new Bonus(this);
                     bonus->show();
                     //spaceSet.property(locate);
@@ -213,7 +213,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=70;
                     ui->walk1->move(a1,b1);   //space=13 tax
                     locate=13;
-                    
+
                     tax = new Tax(this);
                     tax->show();
                     //spaceSet.property(locate);
@@ -226,7 +226,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=14;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     china = new China(this);
                     china->show();
                     //spaceSet.property(locate);
@@ -239,7 +239,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=15;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     brazil = new Brazil(this);
                     brazil->show();
                     //spaceSet.property(locate);
@@ -250,7 +250,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=70;
                     ui->walk1->move(a1,b1);   //space=16 chance
                     locate=16;
-                    
+
                     chance = new Chance(this);
                     chance->show();
                     //spaceSet.property(locate);
@@ -263,7 +263,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=17;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     france = new France(this);
                     france->show();
                     //spaceSet.property(locate);
@@ -286,7 +286,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=19;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     usa = new USA(this);
                     usa->show();
                     //spaceSet.property(locate);
@@ -299,7 +299,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=20;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -322,7 +322,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=22;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     england = new England(this);
                     england->show();
                     //spaceSet.property(locate);
@@ -335,7 +335,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=23;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     chance = new Chance(this);
                     chance->show();
                     //spaceSet.property(locate);
@@ -346,7 +346,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=680;
                     ui->walk1->move(a1,b1);   //space=24 start
                     locate=24;
-                    
+
                     //maybe dont have to show
                     //spaceSet.property(locate);
                     player1 =false;
@@ -362,7 +362,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=1;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myspace = new space(this);
                     myspace->show();
                     //spaceSet.property(locate);
@@ -375,7 +375,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=2;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myanmar = new Myanmar(this);
                     myanmar->show();
                     //spaceSet.property(locate);
@@ -388,7 +388,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=3;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     vietnam = new Vietnam(this);
                     vietnam->show();
                     //spaceSet.property(locate);
@@ -411,7 +411,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=5;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     taiwan = new Taiwan(this);
                     taiwan->show();
                     //spaceSet.property(locate);
@@ -434,7 +434,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=7;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     bhutan = new Bhutan(this);
                     bhutan->show();
                     //spaceSet.property(locate);
@@ -469,7 +469,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     japan->show();
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     //spaceSet.property(locate);
                     player1 =true;
 
@@ -480,7 +480,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=11;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     korea = new Korea(this);
                     korea->show();
                     //spaceSet.property(locate);
@@ -513,7 +513,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=14;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     china = new China(this);
                     china->show();
                     //spaceSet.property(locate);
@@ -526,7 +526,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=15;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     brazil = new Brazil(this);
                     brazil->show();
                     //spaceSet.property(locate);
@@ -547,7 +547,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=17;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     france = new France(this);
                     france->show();
                     //spaceSet.property(locate);
@@ -568,7 +568,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=19;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -580,7 +580,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=20;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -601,7 +601,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=22;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     england = new England(this);
                     england->show();
                     //spaceSet.property(locate);
@@ -640,7 +640,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=2;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myanmar = new Myanmar(this);
                     myanmar->show();
                     //spaceSet.property(locate);
@@ -652,7 +652,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=3;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     vietnam = new Vietnam(this);
                     vietnam->show();
                     //spaceSet.property(locate);
@@ -673,7 +673,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=5;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     taiwan = new Taiwan(this);
                     taiwan->show();
                    // spaceSet.property(locate);
@@ -694,7 +694,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=7;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     bhutan = new Bhutan(this);
                     bhutan->show();
                     //spaceSet.property(locate);
@@ -724,7 +724,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=10;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     japan = new Japan(this);
                     japan->show();
                     //spaceSet.property(locate);
@@ -736,7 +736,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=11;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     korea = new Korea(this);
                     korea->show();
                     //spaceSet.property(locate);
@@ -766,7 +766,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=14;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     china = new China(this);
                     china->show();
                     //spaceSet.property(locate);
@@ -778,7 +778,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=15;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     brazil = new Brazil(this);
                     brazil->show();
                     //spaceSet.property(locate);
@@ -799,7 +799,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=17;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     france = new France(this);
                     france->show();
                     //spaceSet.property(locate);
@@ -820,7 +820,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=19;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -832,7 +832,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=20;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -853,7 +853,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=22;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     england = new England(this);
                     england->show();
                     //spaceSet.property(locate);
@@ -882,7 +882,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=1;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myspace = new space(this);
                     myspace->show();
                     //spaceSet.property(locate);
@@ -899,7 +899,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=2;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myanmar = new Myanmar(this);
                     myanmar->show();
                     //spaceSet.property(locate);
@@ -911,7 +911,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=3;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     vietnam = new Vietnam(this);
                     vietnam->show();
                     //spaceSet.property(locate);
@@ -932,7 +932,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=5;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     taiwan = new Taiwan(this);
                     taiwan->show();
                     //spaceSet.property(locate);
@@ -953,7 +953,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=7;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     bhutan = new Bhutan(this);
                     bhutan->show();
                     //spaceSet.property(locate);
@@ -983,7 +983,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=10;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     japan = new Japan(this);
                     japan->show();
                     //spaceSet.property(locate);
@@ -995,7 +995,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=11;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     korea = new Korea(this);
                     korea->show();
                     //spaceSet.property(locate);
@@ -1025,7 +1025,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=14;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     china = new China(this);
                     china->show();
                     //spaceSet.property(locate);
@@ -1037,7 +1037,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=15;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     brazil = new Brazil(this);
                     brazil->show();
                     //spaceSet.property(locate);
@@ -1058,7 +1058,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=17;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     france = new France(this);
                     france->show();
                     //spaceSet.property(locate);
@@ -1079,7 +1079,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=19;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -1091,7 +1091,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=20;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     swis = new Swis(this);
                     swis->show();
                     //spaceSet.property(locate);
@@ -1114,7 +1114,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     england->show();
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     //spaceSet.property(locate);
                     player1 =true;
                 }else if(a2==760&&b2==378){
@@ -1141,7 +1141,7 @@ void main3::on_random_clicked(){          //dice&&movement
                     locate=1;
                     myques = new buyORnot(this);
                     myques->show();
-                    
+
                     myspace = new space(this);
                     myspace->show();
                     //spaceSet.property(locate);
@@ -1161,6 +1161,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=3                       //add myquesShow
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -1179,6 +1182,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -1197,6 +1203,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=578;
                      ui->walk1->move(a1,b1);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -1224,6 +1233,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -1235,6 +1247,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      locate=11;
                      korea = new Korea(this);
                      korea->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      //spaceSet.property(locate);
                      player1 =false;
                  }else if(a1==100&&b1==378){
@@ -1260,6 +1275,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -1269,6 +1287,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -1287,6 +1308,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -1305,8 +1329,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =false;
                  }else if(a1==608&&b1==70){
@@ -1314,6 +1341,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -1332,6 +1362,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=478;
                      ui->walk1->move(a1,b1);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -1358,6 +1391,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -1367,6 +1403,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -1382,6 +1421,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -1400,6 +1442,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -1418,6 +1463,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=578;
                      ui->walk2->move(a2,b2);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -1445,6 +1493,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -1454,6 +1505,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -1481,6 +1535,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -1490,6 +1547,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -1510,6 +1570,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      locate=17;
                      france = new France(this);
                      france->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==408&&b2==20){
@@ -1526,8 +1589,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==608&&b2==20){
@@ -1535,6 +1601,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -1553,6 +1622,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=478;
                      ui->walk2->move(a2,b2);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -1579,6 +1651,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -1588,6 +1663,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -1618,6 +1696,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -1636,6 +1717,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=578;
                      ui->walk1->move(a1,b1);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -1663,6 +1747,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -1672,6 +1759,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -1699,6 +1789,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -1708,6 +1801,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -1726,6 +1822,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -1744,8 +1843,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =false;
                  }else if(a1==508&&b1==70){
@@ -1753,6 +1855,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -1771,6 +1876,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=478;
                      ui->walk1->move(a1,b1);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -1797,6 +1905,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -1806,6 +1917,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -1815,6 +1929,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -1839,6 +1956,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                     //spaceSet.property(locate);
@@ -1857,6 +1977,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=578;
                      ui->walk2->move(a2,b2);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -1884,6 +2007,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -1893,6 +2019,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -1920,6 +2049,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -1929,6 +2061,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -1947,6 +2082,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //sspace=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -1965,8 +2103,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==508&&b2==20){
@@ -1974,6 +2115,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -1992,6 +2136,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=478;
                      ui->walk2->move(a2,b2);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -2018,6 +2165,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -2027,6 +2177,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -2036,6 +2189,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -2054,6 +2210,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -2072,6 +2231,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=578;
                      ui->walk1->move(a1,b1);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -2099,6 +2261,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -2108,6 +2273,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -2135,6 +2303,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -2144,6 +2315,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -2153,6 +2327,7 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=16
                      locate=16;
+
                      chance = new Chance(this);
                      chance->show();
                      //spaceSet.property(locate);
@@ -2162,6 +2337,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -2179,8 +2357,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =false;
                  }else if(a1==408&&b1==70){
@@ -2188,6 +2369,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -2206,6 +2390,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=478;
                      ui->walk1->move(a1,b1);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -2232,6 +2419,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -2241,6 +2431,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -2250,6 +2443,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -2274,6 +2470,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -2292,6 +2491,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=578;
                      ui->walk2->move(a2,b2);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -2319,6 +2521,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -2328,6 +2533,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -2355,6 +2563,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -2364,6 +2575,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -2382,6 +2596,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -2400,8 +2617,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==408&&b2==20){
@@ -2409,6 +2629,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -2427,6 +2650,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=478;
                      ui->walk2->move(a2,b2);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -2453,6 +2679,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -2462,6 +2691,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -2471,6 +2703,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -2508,6 +2743,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=578;
                      ui->walk1->move(a1,b1);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -2535,6 +2773,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -2544,6 +2785,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -2571,6 +2815,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -2580,6 +2827,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -2598,6 +2848,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=70;
                      ui->walk1->move(a1,b1);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -2616,8 +2869,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=178;
                      ui->walk1->move(a1,b1);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =false;
                  }else if(a1==308&&b1==70){
@@ -2625,6 +2881,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=278;
                      ui->walk1->move(a1,b1);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -2643,6 +2902,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=478;
                      ui->walk1->move(a1,b1);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -2669,6 +2931,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -2678,6 +2943,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -2687,6 +2955,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -2705,6 +2976,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b1=680;
                      ui->walk1->move(a1,b1);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);
@@ -2729,6 +3003,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=578;
                      ui->walk2->move(a2,b2);        //space=7
                      locate=7;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      bhutan = new Bhutan(this);
                      bhutan->show();
                      //spaceSet.property(locate);
@@ -2756,6 +3033,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=10
                      locate=10;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      japan = new Japan(this);
                      japan->show();
                      //spaceSet.property(locate);
@@ -2765,6 +3045,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=11
                      locate=11;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      korea = new Korea(this);
                      korea->show();
                      //spaceSet.property(locate);
@@ -2792,6 +3075,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=14
                      locate=14;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      china = new China(this);
                      china->show();
                      //spaceSet.property(locate);
@@ -2801,6 +3087,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=15
                      locate=15;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      brazil = new Brazil(this);
                      brazil->show();
                      //spaceSet.property(locate);
@@ -2810,8 +3099,8 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=16
                      locate=16;
-                     myspace = new space(this);
-                     myspace->show();
+                     chance = new Chance(this);
+                     chance->show();
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==50&&b2==178){
@@ -2819,6 +3108,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=20;
                      ui->walk2->move(a2,b2);        //space=17
                      locate=17;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      france = new France(this);
                      france->show();
                      //spaceSet.property(locate);
@@ -2837,8 +3129,11 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=178;
                      ui->walk2->move(a2,b2);        //space=19
                      locate=19;
-                     swis = new Swis(this);
-                     swis->show();
+                     myques = new buyORnot(this);
+                     myques->show();
+
+                     usa = new USA(this);
+                     usa->show();
                      //spaceSet.property(locate);
                      player1 =true;
                  }else if(a2==308&&b2==20){
@@ -2846,6 +3141,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=278;
                      ui->walk2->move(a2,b2);        //space=20
                      locate=20;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      swis = new Swis(this);
                      swis->show();
                      //spaceSet.property(locate);
@@ -2864,6 +3162,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=478;
                      ui->walk2->move(a2,b2);        //space=22
                      locate=22;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      england = new England(this);
                      england->show();
                      //spaceSet.property(locate);
@@ -2890,6 +3191,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=1
                      locate=1;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myspace = new space(this);
                      myspace->show();
                      //spaceSet.property(locate);
@@ -2899,6 +3203,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=2
                      locate=2;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      myanmar = new Myanmar(this);
                      myanmar->show();
                      //spaceSet.property(locate);
@@ -2908,6 +3215,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=3
                      locate=3;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      vietnam = new Vietnam(this);
                      vietnam->show();
                      //spaceSet.property(locate);
@@ -2926,6 +3236,9 @@ void main3::on_random_clicked(){          //dice&&movement
                      b2=730;
                      ui->walk2->move(a2,b2);        //space=5
                      locate=5;
+                     myques = new buyORnot(this);
+                     myques->show();
+
                      taiwan = new Taiwan(this);
                      taiwan->show();
                      //spaceSet.property(locate);

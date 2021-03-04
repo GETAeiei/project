@@ -17,10 +17,10 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Monopoly Game</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(184, 184, 184);
+   <string notr="true">background-color: rgb(255, 221, 211);
 </string>
   </property>
   <widget class="QLabel" name="label">
@@ -59,6 +59,10 @@
      <family>OCR-B 10 BT</family>
      <pointsize>28</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 206, 165);
+background-color: rgb(255, 192, 137);</string>
    </property>
    <property name="text">
     <string>NEXT</string>

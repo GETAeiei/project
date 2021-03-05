@@ -15,7 +15,6 @@ class player1
         bool buy;
         bool own;
     void buy_house();
-
     void house_asset();
     void other_player_own();//ตกตำแหน่งบ้านของฝ่ายตรงข้าม
 };

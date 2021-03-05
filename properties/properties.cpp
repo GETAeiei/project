@@ -92,4 +92,3 @@ void player2::other_player_own()
     }
 }
 
-//ปัญหา ณ ตอนนี้จะอ่านค่าhouseลำดับล่าสุดยังไง?

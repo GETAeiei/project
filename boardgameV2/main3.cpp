@@ -63,10 +63,14 @@ void main3::on_random_clicked(){          //dice&&movement
     bank calCost =bank();
     buyORnot check= buyORnot();
     Tax check_ans = Tax();
-    //NEW                 24  1    2   3   4    5    6   7   8    9    10  11  12 13 14  15  16  17   18  19 20  21  22  23
-    //
-    int space_cal[24] = {500,100,100,-100,100,-200,-700,300,100,-300,-100,200,400,0,100,100,-300,200,-200,100,0,300,-200,100};
+    srand(time(0));
+    int moneyRDPosit=(rand()%9+1)*100;  //positive
+    int moneyRDNega=(rand()%9+1)*(-100);  //positive
 
+    //NEW                 24  1    2   3         4     5    6  7   8           9    10 11 12    13   14  15       16        1718  19  20   21   22  23
+
+    int space_cal[24] = {500,100,100,-100,moneyRDPosit,-200,0,300,-500,moneyRDNega,100,300,0, -400, -100,+500,moneyRDPosit,100,0,-100,200,-300,500,moneyRDNega};
+    //int space_cal[24] = {500,100,300,-100,moneyRDPosit,-200,-700,300,100,-300,-100,200,400,0,100,100,-300,200,-200,100,0,300,-200,100};
 
 
 
@@ -83,19 +87,16 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=680;
                     ui->walk1->move(a1,b1);   //space=1 Thailand
                     locate=1;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     myspace = new space(this);
                     myspace->show();
-                    //spaceSet.property(locate);
 
-                        mon_play1+=space_cal[1];
-                        ui->costP1->setText(QString::number(mon_play1));
-                        if(mon_play1>=3000){
-                           win1 = new Winwin(this);
-                           win1->show();
-                                                }
+                    mon_play1+=space_cal[1];
+                    ui->costP1->setText(QString::number(mon_play1));
+                    if(mon_play1>=3000){
+                       win1 = new Winwin(this);
+                       win1->show();
+                   }
 
                     player1 =false;
 
@@ -103,22 +104,16 @@ void main3::on_random_clicked(){          //dice&&movement
                     a1=508;b1=680;
                     ui->walk1->move(a1,b1);   //space=2 Myanmar
                     locate=2;
-                    //myques = new buyORnot(this);
-                    //myques->show();
-                    tax = new Tax(this);
-                    tax->show();
 
                     myanmar = new Myanmar(this);
                     myanmar->show();
                     //spaceSet.property(locate);
                     mon_play1+=space_cal[2];
-
+                    ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
-
+                }
                     player1 =false;
 
                 }else if(a1==508&&b1==680){
@@ -126,8 +121,6 @@ void main3::on_random_clicked(){          //dice&&movement
                     b1=680;
                     ui->walk1->move(a1,b1);   //space=3 Vietnam
                     locate=3;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     vietnam = new Vietnam(this);
                     vietnam->show();
@@ -147,8 +140,8 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk1->move(a1,b1);   //space=4 chance
                     locate=4;
 
-                    //chance = new Chance(this);
-                    //chance->show();
+                    chance = new Chance(this);
+                    chance->show();
                     //spaceSet.property(locate);
                     //mon_play1+=3500;  //check if play1 win
                     mon_play1+=space_cal[4];

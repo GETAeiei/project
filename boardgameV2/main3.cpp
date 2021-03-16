@@ -3,10 +3,7 @@
 #include<iostream>
 #include "dice.h"
 #include<QPixmap>
-#include"buyornot.h"
-#include "bank.h"
-#include "buyornot.h"
-#include  "main2.h"
+
 //Add
 #include"space.h"
 #include"myanmar.h"
@@ -27,7 +24,8 @@
 #include "supertax.h"
 #include "england.h"
 #include "winwin.h"
-//________
+#include "winwin2.h"
+
 #include"ui_space.h"
 
 using namespace std;
@@ -37,7 +35,6 @@ main3::main3(QWidget *parent) :
     ui(new Ui::main3)
 {
     ui->setupUi(this);
-
 }
 
 main3::~main3()
@@ -47,25 +44,15 @@ main3::~main3()
 
 
 
-
 void main3::on_random_clicked(){          //dice&&movement
-
 
     Dice random= Dice();
     //int roll =random.roll_dice();
     int roll=1;
 
-    //int spaceValue=0;
-    //space spaceSet =space();
-    //spaceSet.property(spaceValue);
-    double num1=0;
-    //double num2=0;
-    bank calCost =bank();
-    buyORnot check= buyORnot();
-    Tax check_ans = Tax();
     srand(time(0));
     int moneyRDPosit=(rand()%9+1)*100;  //positive
-    int moneyRDNega=(rand()%9+1)*(-100);  //positive
+    int moneyRDNega=(rand()%9+1)*(-100);  //negative
 
     //NEW                 24  1    2   3         4     5    6  7   8           9    10 11 12    13   14  15       16        1718  19  20   21   22  23
 
@@ -80,12 +67,10 @@ void main3::on_random_clicked(){          //dice&&movement
             ui->roll->setStyleSheet("background-image: url(:/resource/img/dicepic/Dice-1.png);");
 
             if(player1 ==true){
-
                 if(a1==730&&b1==680){
-
                     a1=608;
                     b1=680;
-                    ui->walk1->move(a1,b1);   //space=1 Thailand
+                    ui->walk1->move(a1,b1);   //space1 +100
                     locate=1;
 
                     myspace = new space(this);
@@ -96,18 +81,17 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                   }
-
+                    }
                     player1 =false;
 
                 }else if(a1==608&&b1==680){
                     a1=508;b1=680;
-                    ui->walk1->move(a1,b1);   //space=2 Myanmar
+                    ui->walk1->move(a1,b1);   //space2 +300
                     locate=2;
 
                     myanmar = new Myanmar(this);
                     myanmar->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[2];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
@@ -119,254 +103,243 @@ void main3::on_random_clicked(){          //dice&&movement
                 }else if(a1==508&&b1==680){
                     a1=408;
                     b1=680;
-                    ui->walk1->move(a1,b1);   //space=3 Vietnam
+                    ui->walk1->move(a1,b1);   //space3 -100
                     locate=3;
 
                     vietnam = new Vietnam(this);
                     vietnam->show();
-                    //spaceSet.property(locate);
+                   
                     mon_play1+=space_cal[3];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
+                    }
                     player1 =false;
 
                 }else if(a1==408&&b1==680){
                     a1=308;
                     b1=680;
-                    ui->walk1->move(a1,b1);   //space=4 chance
+                    ui->walk1->move(a1,b1);   //space4 positive random
                     locate=4;
 
                     chance = new Chance(this);
                     chance->show();
-                    //spaceSet.property(locate);
-                    //mon_play1+=3500;  //check if play1 win
+                    
                     mon_play1+=space_cal[4];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
-
+                    }
                     player1 =false;
 
                 }else if(a1==308&&b1==680){
                     a1=208;
                     b1=680;
-                    ui->walk1->move(a1,b1);   //space=5 Taiwan
+                    ui->walk1->move(a1,b1);   //space5 -200
                     locate=5;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     taiwan = new Taiwan(this);
                     taiwan->show();
-                    //spaceSet.property(locate);
+                    ;
                     mon_play1+=space_cal[5];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
+                    }
                     player1 =false;
 
                 }else if(a1==208&&b1==680){
                     a1=85;
                     b1=680;
-                    ui->walk1->move(a1,b1);    //space=6 Airport
+                    ui->walk1->move(a1,b1);    //space6 movement to space10
                     locate=6;
                     wait = new Wait(this);
                     wait->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[6];
+
+                    //a1=100;
+                    //b1=278;
+                    //ui->walk1->move(a1,b1); 
+                    //mon_play1+=space_cal[10];
+
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
-
+                    }
                     player1 =false;
 
                 }else if(a1==85&&b1==680){
                     a1=100;
                     b1=578;
-                    ui->walk1->move(a1,b1);   //space=7 bhutan
+                    ui->walk1->move(a1,b1);   //space7 +300
                     locate=7;
-                    myques = new buyORnot(this);
-                    myques->show();
 
                     bhutan = new Bhutan(this);
                     bhutan->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[7];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==578){
                     a1=100;
                     b1=478;
-                    ui->walk1->move(a1,b1);   //space=8 tax
+                    ui->walk1->move(a1,b1);   //space8 -500
                     locate=8;
 
-                    //tax = new Tax(this);
-                    //tax->show();
-                    //spaceSet.property(locate);
+                    tax = new Tax(this);
+                    tax->show();
+                    
                     mon_play1+=space_cal[8];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==478){
                     a1=100;
                     b1=378;
-                    ui->walk1->move(a1,b1);   //space=9 chance
+                    ui->walk1->move(a1,b1);   //space9 negative random
                     locate=9;
 
-                    //chance = new Chance(this);
-                    //chance->show();
-                    //spaceSet.property(locate);
+                    chance = new Chance(this);
+                    chance->show();
+                    
                     mon_play1+=space_cal[9];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
-
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==378){
                     a1=100;
                     b1=278;
-                    ui->walk1->move(a1,b1);   //space=10 japan
+                    ui->walk1->move(a1,b1);   //space10 +100
                     locate=10;
-                    //myques = new buyORnot(this);
-                    //myques->show();
-
+                    
                     japan = new Japan(this);
                     japan->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[10];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==278){
                     a1=100;
                     b1=178;
-                    ui->walk1->move(a1,b1);   //space=11 korea
+                    ui->walk1->move(a1,b1);   //space11 +300
                     locate=11;
-                    myques = new buyORnot(this);
-                    myques->show();
-
+                    
                     korea = new Korea(this);
                     korea->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[11];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==178){
                     a1=100;
                     b1=55;
-                    ui->walk1->move(a1,b1);   //space=12 bonus
+                    ui->walk1->move(a1,b1);   //space12 movement to space5
                     locate=12;
 
-                    //bonus = new Bonus(this);
-                    //bonus->show();
-                    //spaceSet.property(locate);
+                    bonus = new Bonus(this);
+                    bonus->show();
                     mon_play1+=space_cal[12];
+
+                    //a1=208;
+                    //b1=680;
+                    //ui->walk1->move(a1,b1); 
+                    //mon_play1+=space_cal[5];
+
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==100&&b1==55){
                     a1=208;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=13 tax
+                    ui->walk1->move(a1,b1);   //space13 -400
                     locate=13;
 
-                    //tax = new Tax(this);
-                    //tax->show();
-                    //spaceSet.property(locate);
+                    tax = new Tax(this);
+                    tax->show();
+                    
                     mon_play1+=space_cal[13];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==208&&b1==70){
                     a1=308;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=14 china
+                    ui->walk1->move(a1,b1);   //space14 -100
                     locate=14;
-                    //myques = new buyORnot(this);
-                    //myques->show();
-
+                    
                     china = new China(this);
                     china->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[14];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==308&&b1==70){
                     a1=408;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=15 brazil
+                    ui->walk1->move(a1,b1);   //space15 +500
                     locate=15;
-                    //myques = new buyORnot(this);
-                    //myques->show();
-
+                    
                     brazil = new Brazil(this);
                     brazil->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[15];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==408&&b1==70){
                     a1=508;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=16 chance
+                    ui->walk1->move(a1,b1);   //space16 random positive
                     locate=16;
 
-                    //chance = new Chance(this);
-                    //chance->show();
-                    //spaceSet.property(locate);
+                    chance = new Chance(this);
+                    chance->show();
+                    
                     mon_play1+=space_cal[16];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
@@ -378,103 +351,100 @@ void main3::on_random_clicked(){          //dice&&movement
                 }else if(a1==508&&b1==70){
                     a1=608;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=17 france
+                    ui->walk1->move(a1,b1);   //space17 +100
                     locate=17;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     france = new France(this);
                     france->show();
-                    //spaceSet.property(locate);
+                   
                     mon_play1+=space_cal[17];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
+                        win1 = new Winwin(this);
+                        win1->show();
                                             }
                     player1 =false;
 
                 }else if(a1==608&&b1==70){
                     a1=730;
                     b1=70;
-                    ui->walk1->move(a1,b1);   //space=18 wait
+                    ui->walk1->move(a1,b1);   //space18 movement to space1
                     locate=18;
-                    //wait = new Wait(this);
-                   // wait->show();
-                    //spaceSet.property(locate);
+                    wait = new Wait(this);
+                    wait->show();
+
+                    //a1=730;
+                    //b1=680;
+                    //ui->walk1->move(a1,b1); 
+                    //mon_play1+=space_cal[1];
+
                     mon_play1+=space_cal[18];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==730&&b1==70){
                     a1=710;
                     b1=178;
-                    ui->walk1->move(a1,b1);   //space=19 usa
+                    ui->walk1->move(a1,b1);   //space19 -1000
                     locate=19;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     usa = new USA(this);
                     usa->show();
-                    //spaceSet.property(locate);
+
                     mon_play1+=space_cal[19];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
+                    }
                     player1 =false;
 
                 }else if(a1==710&&b1==178){
                     a1=710;
                     b1=278;
-                    ui->walk1->move(a1,b1);   //space=20 swis
+                    ui->walk1->move(a1,b1);   //space20 +200
                     locate=20;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     swis = new Swis(this);
                     swis->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[20];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
+                    }
                     player1 =false;
 
                 }else if(a1==710&&b1==278){
                     a1=710;
                     b1=378;
-                    ui->walk1->move(a1,b1);   //space=21 supertax
+                    ui->walk1->move(a1,b1);   //space21 -300
                     locate=21;
-                    //supertax = new Supertax(this);
-                    //supertax->show();
-                    //spaceSet.property(locate);
+                    supertax = new Supertax(this);
+                    supertax->show();
+                    
                     mon_play1+=space_cal[21];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==710&&b1==378){
                     a1=710;
                     b1=478;
-                    ui->walk1->move(a1,b1);   //space=22 england
+                    ui->walk1->move(a1,b1);   //space22 +500
                     locate=22;
-                    //myques = new buyORnot(this);
-                    //myques->show();
 
                     england = new England(this);
                     england->show();
-                    //spaceSet.property(locate);
+                    
                     mon_play1+=space_cal[22];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
@@ -486,36 +456,35 @@ void main3::on_random_clicked(){          //dice&&movement
                 }else if(a1==710&&b1==478){
                     a1=710;
                     b1=578;
-                    ui->walk1->move(a1,b1);   //space=23 chance
+                    ui->walk1->move(a1,b1);   //space23 negative random
                     locate=23;
                     myques = new buyORnot(this);
                     myques->show();
 
-                    //chance = new Chance(this);
-                    //chance->show();
-                    //spaceSet.property(locate);
+                    chance = new Chance(this);
+                    chance->show();
+                    
                     mon_play1+=space_cal[23];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
 
                 }else if(a1==710&&b1==578){
                     a1=730;
                     b1=680;
-                    ui->walk1->move(a1,b1);   //space=24 start
+                    ui->walk1->move(a1,b1);   //space24 +500(start)
                     locate=24;
-
                     //maybe dont have to show
-                    //spaceSet.property(locate);
+
                     mon_play1+=space_cal[0];
                     ui->costP1->setText(QString::number(mon_play1));
                     if(mon_play1>=3000){
-                       win1 = new Winwin(this);
-                       win1->show();
-                                            }
+                        win1 = new Winwin(this);
+                        win1->show();
+                    }
                     player1 =false;
                 }
             }

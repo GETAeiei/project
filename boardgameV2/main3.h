@@ -23,6 +23,7 @@
 #include "england.h"
 #include <QDialog>
 #include "winwin.h"
+#include "winwin2.h"
 namespace Ui {
 class main3;
 }
@@ -46,7 +47,7 @@ public:
     int mon_play1 = 1500;
     int mon_play2 = 1500;
 
-    
+
 private slots:
     void on_random_clicked();
 
@@ -75,6 +76,8 @@ private:
     buyORnot *myques;
 
     Winwin *win1;
+
+    winwin2 *win2;
 };
 
 #endif // MAIN3_H

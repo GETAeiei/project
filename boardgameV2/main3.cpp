@@ -81,6 +81,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -98,6 +101,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -115,6 +121,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -132,6 +141,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -149,6 +161,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -171,6 +186,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -188,6 +206,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -205,6 +226,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -222,6 +246,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -239,6 +266,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -256,6 +286,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -278,6 +311,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -295,6 +331,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -312,6 +351,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -329,6 +371,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -346,7 +391,10 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
+                    }
                     player1 =false;
 
                 }else if(a1==508&&b1==70){
@@ -363,7 +411,10 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
-                                            }
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
+                    }
                     player1 =false;
 
                 }else if(a1==608&&b1==70){
@@ -384,6 +435,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -401,6 +455,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -418,6 +475,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -434,6 +494,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -451,7 +514,10 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                        win1 = new Winwin(this);
                        win1->show();
-                                            }
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
+                    }
                     player1 =false;
 
                 }else if(a1==710&&b1==478){
@@ -468,6 +534,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
 
@@ -483,6 +552,9 @@ void main3::on_random_clicked(){          //dice&&movement
                     if(mon_play1>=3000){
                         win1 = new Winwin(this);
                         win1->show();
+                    }else if(mon_play1<0){
+                        win2 = new winwin2(this);
+                        win2->show();
                     }
                     player1 =false;
                 }
@@ -502,8 +574,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -519,8 +594,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -536,8 +614,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -552,8 +633,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -569,8 +653,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -590,8 +677,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -607,8 +697,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -623,8 +716,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -639,8 +735,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -655,8 +754,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -672,8 +774,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[11];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -693,8 +798,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -709,8 +817,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -726,8 +837,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[14];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -743,8 +857,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==408&&b2==20){
@@ -758,8 +875,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==508&&b2==20){
@@ -774,8 +894,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==608&&b2==20){
@@ -794,8 +917,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==730&&b2==20){
@@ -810,8 +936,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==178){
@@ -826,8 +955,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==278){
@@ -841,8 +973,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==378){
@@ -856,8 +991,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==478){
@@ -871,8 +1009,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==578){
@@ -881,11 +1022,14 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk2->move(a2,b2);     //space24 +500(start)
                     locate=24;
 
-                    mon_play2+=space_cal[24];
+                    mon_play2+=space_cal[0];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }
@@ -1312,8 +1456,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==608&&b2==730){
@@ -1328,8 +1475,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==508&&b2==730){
@@ -1343,8 +1493,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==408&&b2==730){
@@ -1359,8 +1512,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==308&&b2==730){
@@ -1379,8 +1535,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==208&&b2==730){
@@ -1395,8 +1554,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==85&&b2==730){
@@ -1410,8 +1572,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==578){
@@ -1425,8 +1590,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==478){
@@ -1440,8 +1608,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==378){
@@ -1456,8 +1627,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[11];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==278){
@@ -1476,8 +1650,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==178){
@@ -1491,8 +1668,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==50&&b2==55){
@@ -1507,8 +1687,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[14];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==208&&b2==20){
@@ -1523,8 +1706,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==308&&b2==20){
@@ -1538,8 +1724,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==408&&b2==20){
@@ -1554,8 +1743,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==508&&b2==20){
@@ -1574,8 +1766,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==608&&b2==20){
@@ -1590,8 +1785,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==730&&b2==20){
@@ -1606,8 +1804,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==178){
@@ -1621,8 +1822,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==278){
@@ -1636,8 +1840,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==378){
@@ -1651,8 +1858,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==478){
@@ -1661,11 +1871,14 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk2->move(a2,b2);     //space24 +500(start)
                     locate=24;
 
-                    mon_play2+=space_cal[24];
+                    mon_play2+=space_cal[0];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }else if(a2==760&&b2==578){
@@ -1680,8 +1893,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                 }
@@ -2107,8 +2323,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==730){
@@ -2122,8 +2341,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==730){
@@ -2138,8 +2360,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==730){
@@ -2158,8 +2383,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==730){
@@ -2174,8 +2402,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==730){
@@ -2189,8 +2420,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
 
@@ -2205,8 +2439,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==578){
@@ -2220,8 +2457,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==478){
@@ -2236,8 +2476,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[11];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==378){
@@ -2256,8 +2499,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==278){
@@ -2271,8 +2517,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==178){
@@ -2285,10 +2534,12 @@ void main3::on_random_clicked(){          //dice&&movement
                     china->show();
                     
                     mon_play2+=space_cal[14];
-                    ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==55){
@@ -2303,8 +2554,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==20){
@@ -2318,8 +2572,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==20){
@@ -2334,8 +2591,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==20){
@@ -2354,8 +2614,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==20){
@@ -2370,8 +2633,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==20){
@@ -2386,8 +2652,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==730&&b2==20){
@@ -2401,8 +2670,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==178){
@@ -2416,8 +2688,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==278){
@@ -2431,8 +2706,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==378){
@@ -2444,8 +2722,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[24];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==478){
@@ -2460,8 +2741,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==578){
@@ -2476,8 +2760,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }
@@ -2902,8 +3189,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==730){
@@ -2918,8 +3208,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==730){
@@ -2938,8 +3231,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==730){
@@ -2954,8 +3250,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==730){
@@ -2969,8 +3268,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==730){
@@ -2984,8 +3286,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==85&&b2==730){
@@ -2999,8 +3304,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==578){
@@ -3015,8 +3323,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[11];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==478){
@@ -3035,8 +3346,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==378){
@@ -3050,8 +3364,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==278){
@@ -3066,8 +3383,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[14];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==178){
@@ -3082,8 +3402,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==55){
@@ -3097,8 +3420,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==20){
@@ -3113,8 +3439,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==20){
@@ -3133,8 +3462,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==20){
@@ -3149,8 +3481,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==20){
@@ -3165,8 +3500,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==20){
@@ -3180,8 +3518,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==730&&b2==20){
@@ -3195,8 +3536,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==178){
@@ -3210,8 +3554,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==278){
@@ -3220,11 +3567,14 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk2->move(a2,b2);     //space24 +500(start)
                     locate=24;
 
-                    mon_play2+=space_cal[24];
+                    mon_play2+=space_cal[0];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==378){
@@ -3239,8 +3589,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==478){
@@ -3255,8 +3608,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==578){
@@ -3271,8 +3627,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }
@@ -3696,8 +4055,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==730){
@@ -3716,8 +4078,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==730){
@@ -3732,8 +4097,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==730){
@@ -3747,8 +4115,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==730){
@@ -3762,8 +4133,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==730){
@@ -3777,8 +4151,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==85&&b2==730){
@@ -3793,8 +4170,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[11];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==578){
@@ -3813,8 +4193,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==478){
@@ -3828,8 +4211,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==378){
@@ -3844,8 +4230,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[14];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==278){
@@ -3860,8 +4249,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==178){
@@ -3875,8 +4267,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==55){
@@ -3891,8 +4286,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==20){
@@ -3911,8 +4309,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==20){
@@ -3927,8 +4328,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==20){
@@ -3943,8 +4347,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==20){
@@ -3958,8 +4365,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==20){
@@ -3973,8 +4383,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==730&&b2==20){
@@ -3988,8 +4401,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==178){
@@ -3998,11 +4414,14 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk2->move(a2,b2);     //space24 +500(start)
                     locate=24;
 
-                    mon_play2+=space_cal[24];
+                    mon_play2+=space_cal[0];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==278){
@@ -4017,8 +4436,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==378){
@@ -4033,8 +4455,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==478){
@@ -4049,8 +4474,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==578){
@@ -4064,8 +4492,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }
@@ -4494,8 +4925,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[6];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==730){
@@ -4510,8 +4944,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[7];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==730){
@@ -4525,8 +4962,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[8];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==730){
@@ -4540,8 +4980,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[9];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==730){
@@ -4555,8 +4998,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[10];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==730){
@@ -4569,10 +5015,12 @@ void main3::on_random_clicked(){          //dice&&movement
                     korea->show();
 
                     mon_play2+=space_cal[11];
-                    ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==85&&b2==730){
@@ -4591,8 +5039,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[12];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==578){
@@ -4606,8 +5057,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[13];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==478){
@@ -4622,8 +5076,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[14];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==378){
@@ -4638,8 +5095,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[15];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==278){
@@ -4653,8 +5113,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[16];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==178){
@@ -4669,8 +5132,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[17];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==50&&b2==55){
@@ -4689,8 +5155,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[18];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==208&&b2==20){
@@ -4705,8 +5174,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[19];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==308&&b2==20){
@@ -4721,8 +5193,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[20];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==408&&b2==20){
@@ -4736,8 +5211,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[21];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==508&&b2==20){
@@ -4751,8 +5229,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[22];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==608&&b2==20){
@@ -4766,8 +5247,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[23];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==730&&b2==20){
@@ -4776,11 +5260,14 @@ void main3::on_random_clicked(){          //dice&&movement
                     ui->walk2->move(a2,b2);     //space24 +500(start)
                     locate=24;
 
-                    mon_play2+=space_cal[24];
+                    mon_play2+=space_cal[0];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==178){
@@ -4795,8 +5282,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[1];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==278){
@@ -4811,8 +5301,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[2];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==378){
@@ -4827,8 +5320,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[3];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==478){
@@ -4842,8 +5338,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[4];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }else if(a2==760&&b2==578){
@@ -4858,8 +5357,11 @@ void main3::on_random_clicked(){          //dice&&movement
                     mon_play2+=space_cal[5];
                     ui->costP2->setText(QString::number(mon_play2));
                     if(mon_play2>=3000){
-                        win2 = new Winwin(this);
+                        win2 = new winwin2(this);
                         win2->show();
+                    }else if(mon_play2<0){
+                        win1 = new Winwin(this);
+                        win1->show();
                     }
                     player1 =true;
                  }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>space</class>
+ <widget class="QDialog" name="space">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::CustomContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Thai</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(219, 249, 255);</string>
+  </property>
+  <widget class="QLabel" name="thai">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>-10</y>
+     <width>510</width>
+     <height>510</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR-B 10 BT</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="text">
+    <string>+100 point</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

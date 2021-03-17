@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>img/gamecover/boarddddddddddddddd.jpg</file>
+        <file>img/window/space01.png</file>
+        <file>img/window/space02.png</file>
+        <file>img/window/space03.png</file>
+        <file>img/window/space04.png</file>
+        <file>img/window/space05.png</file>
+        <file>img/window/space07.png</file>
+        <file>img/window/space08.png</file>
+        <file>img/window/space09.png</file>
+        <file>img/window/space10.png</file>
+        <file>img/window/space11.png</file>
+        <file>img/window/space13.png</file>
+        <file>img/window/space14.png</file>
+        <file>img/window/space15.png</file>
+        <file>img/window/space16.png</file>
+        <file>img/window/space17.png</file>
+        <file>img/window/space19.png</file>
+        <file>img/window/space20.png</file>
+        <file>img/window/space21.png</file>
+        <file>img/window/space22.png</file>
+        <file>img/window/space23.png</file>
+        <file>img/character/red.png</file>
+        <file>img/character/blue.png</file>
+        <file>img/dice/Dice-1.png</file>
+        <file>img/dice/Dice-2.png</file>
+        <file>img/dice/Dice-3.png</file>
+        <file>img/dice/Dice-4.png</file>
+        <file>img/dice/Dice-5.png</file>
+        <file>img/dice/Dice-6.png</file>
+        <file>img/win/win1.jpg</file>
+        <file>img/win/win2.jpg</file>
+        <file>img/gamecover/cover.png</file>
+        <file>img/gamecover/player1frame.jpg.jpg</file>
+        <file>img/gamecover/player2frame.jpg.jpg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

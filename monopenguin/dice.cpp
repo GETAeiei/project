@@ -12,10 +12,3 @@ int Dice::roll_dice(){
     dice = rand() % 6 + 1;
     return dice;
 }
-
-int Dice::randChance()
-{
-    srand(time(0));
-    rand_chance = rand() % 10 + 1;
-    return rand_chance;
-}
